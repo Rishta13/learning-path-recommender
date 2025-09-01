@@ -23,7 +23,7 @@ with st.sidebar:
     then rank possible next skills. We also include quick resource pointers.
     ''')
 
-df = pd.read_csv("data/learning_paths.csv")
+df = pd.read_csv("learning_paths.csv")
 all_skills = sorted(set(df["current_skill"]).union(set(df["recommended_skill"])))
 goals = sorted(df["career_goal"].unique())
 
