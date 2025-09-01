@@ -8,7 +8,7 @@ st.set_page_config(page_title="Personalized Learning Path Recommender", page_ico
 st.title("🎓 Personalized Learning Path Recommender")
 st.write("Suggests the **next best skills** based on your current skills and career goal.")
 
-recommender = LearningPathRecommender("data/learning_paths.csv")
+recommender = LearningPathRecommender("learning_paths.csv")
 
 with st.sidebar:
     st.header("About this project")
