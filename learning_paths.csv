@@ -1,0 +1,7 @@
+
+current_skill,career_goal,recommended_skill,why,resources
+Python,Data Scientist,SQL,Essential for handling databases,https://www.w3schools.com/sql/
+Python,Data Scientist,Machine Learning,Core to predictive modeling,https://scikit-learn.org/
+SQL,Data Scientist,Data Visualization,Helps in communicating insights,https://matplotlib.org/
+Python,AI Engineer,Deep Learning,Neural networks are key for AI,https://tensorflow.org/
+Data Visualization,Data Analyst,Statistics,Basis for accurate analysis,https://www.khanacademy.org/math/statistics-probability
